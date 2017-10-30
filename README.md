@@ -1,4 +1,4 @@
-QVID team component style Angular 1.6, webpack3, SASS, TS and es6 both, Karma, Jasmine, Istanbul skeleton project
+QVID team component style Angular 1.6, webpack3, SASS, es6 both, Karma, Jasmine, Istanbul skeleton project
 inspired by toddmotto's style guide
 
 https://github.com/chihab/ES6-for-humans
