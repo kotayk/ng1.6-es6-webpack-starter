@@ -1,0 +1,24 @@
+$block: page;
+
+.#{$block}  {
+    background: $body-background-color url('../img/login-bg.png') no-repeat top center;
+    height: 100%;
+
+    &__inner {
+        height: 100%;
+        max-width: $page-inner-max-width;
+        margin: 0 auto;
+    }
+
+    &__container {
+        height: 100%;
+
+        &_vertical-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+}
+

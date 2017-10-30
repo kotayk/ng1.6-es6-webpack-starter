@@ -1,0 +1,43 @@
+$block: btn;
+
+.#{$block} {
+    height: 24px;
+    width: 100px;
+    border: 1px solid $blue-dark;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: $blue-dark;
+    color: $white;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    outline: none;
+    transition: all ease .15s;
+    padding-top: 2px;
+
+    &._disabled {
+        pointer-events: none;
+        border: 1px solid $gray;
+        background-color: $white;
+        color: $gray;
+        cursor: default;
+        &:hover, &:active {
+            border: 1px solid $gray;
+            background: $white;
+            box-shadow: none;
+        }
+    }
+
+
+    &:hover {
+        border: none;
+        background-color: $orange;
+    }
+
+    &:active {
+        border: none;
+        background-color: $orange;
+        box-shadow: inset 0 0 3px 1px $gray-dark;
+    }
+
+}

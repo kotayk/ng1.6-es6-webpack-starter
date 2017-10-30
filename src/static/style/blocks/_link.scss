@@ -1,0 +1,16 @@
+$block: link;
+
+.#{$block} {
+    color: $blue;
+    font-size: 12px;
+
+    &:hover {
+        color: $orange;
+    }
+
+
+    &:active {
+        color: $blue;
+    }
+
+}

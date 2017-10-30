@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "allowJs": true
+  }
+}
+
+// for some unexpected reasons Awesome Typescript Loader doesn't transpile es6 code in .js files,
+// so by now .js files usage is prohibited
+// https://github.com/s-panferov/awesome-typescript-loader/issues/113
+//"awesomeTypescriptLoaderOptions": {
+//"useBabel": true,
+//"useCache": true
+//}

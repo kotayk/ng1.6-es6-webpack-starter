@@ -1,0 +1,11 @@
+$block: logo;
+
+.#{$block} {
+    background: url('../img/LogoDefault.jpg') no-repeat;
+
+    &_login {
+        height: 80px;
+        width: 190px;
+    }
+
+}

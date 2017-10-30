@@ -1,0 +1,8 @@
+.awcache
+.npmrc
+.tmp
+.vscode
+.idea
+build
+node_modules
+public

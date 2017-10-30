@@ -1,0 +1,18 @@
+$block: float-modal;
+
+.#{$block}  {
+    text-align: left;
+    padding: 20px;
+    background: $white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px #363535;
+
+    &__container {
+        margin-bottom: 20px;
+    }
+
+    &_login {
+        width: 400px;
+    }
+
+}

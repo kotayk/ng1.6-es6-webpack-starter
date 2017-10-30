@@ -1,0 +1,46 @@
+$block: form;
+
+.#{$block} {
+    padding: 20px 15px;
+
+    &_border {
+        border: 1px solid $gray;
+    }
+
+    &__container {
+        margin-top: 20px;
+        &_right {
+            text-align: right;
+        }
+    }
+
+    &__label {
+        margin: 3px 0;
+        font-size: 12px;
+
+        &_inline-block {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    }
+
+    &__input {
+        margin: 3px 0;
+        box-sizing: border-box;
+
+        &_text {
+            width: 100%;
+            font-size: 14px;
+            border: 1px solid $gray-dark;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        &_checkbox {
+            vertical-align: middle;
+        }
+
+    }
+
+}
